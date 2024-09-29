@@ -1,0 +1,10 @@
+{
+  "/g": {
+    "target": "http://localhost:3000",
+    "secure": false,
+    "pathRewrite": {
+      "^/g": "/home"
+    },
+    "changeOrigin": true
+  }
+}

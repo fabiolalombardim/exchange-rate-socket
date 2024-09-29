@@ -1,0 +1,49 @@
+.banner-summary {
+  width: 100%;
+  min-height: 140px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 16px;
+  border-radius: 6px;
+
+  .title_row {
+    align-items: center;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .category {
+    font-size: 14px;
+    color: gray;
+  }
+
+  .balance {
+    padding: 40px 0px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .balance_usd {
+    margin-left: 8px;
+    font-weight: 300;
+  }
+
+  .av_balance {
+    font-size: 16px;
+    color: darkslategray;
+    width: fit-content;
+  }
+}
+
+.table_container {
+  margin-top: 40px;
+}
+
+
+.loader_container {
+  justify-content: center;
+  padding-top: 40px;
+}

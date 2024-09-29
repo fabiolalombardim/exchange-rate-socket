@@ -1,0 +1,18 @@
+
+<div class="home">
+
+  <div class="rate" fxLayout="row" fxFlexAlign="center">
+    <mat-icon
+    aria-hidden="false"
+    aria-label="Example home icon"
+    fontIcon="currency_bitcoin"
+  ></mat-icon>
+  <span> : {{ exchangeRate | currency }} </span>
+  </div>
+  <app-table
+    [displayedColumns]="displayedColumns"
+    [dataSource]="dataSource"
+  ></app-table>
+
+</div>
+
